@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Gampang Material</string>
+
+    <string-array name="Provinsi">
+        <item>-------------------------------------------------------------------------</item>
+        <item>Banten</item>
+        <item>Depok</item>
+        <item>Jakarta</item>
+    </string-array>
+    <string name="title_activity_home">ActivityHome</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_history">History</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_gantipass">Ganti Kata Sandi</string>
+    <string name="nav_share">Share</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>History</item>
+        <item>About Us</item>
+        <item>Ganti Kata Sandi</item>
+        <item>Bagikan</item>
+    </string-array>
+
+    <string name="logout">Log Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

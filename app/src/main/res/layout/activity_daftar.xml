@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rin.gmtestlagi.ActivityDaftar">
+
+
+    <EditText
+        android:id="@+id/input_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nama Lengkap"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/input_nope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nomor Handphone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/input_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Kata Sandi"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/input_conf_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Konfirmasi Kata Sandi"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/tv_prov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Provinsi"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <Spinner
+        android:id="@+id/spinner_provinsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Provinsi" />
+
+    <EditText
+        android:id="@+id/input_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Alamat"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dengan klik DAFTARKAN maka anda sudah menyetujui" />
+
+    <TextView
+        android:id="@+id/tv_faq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Syarat dan Ketentuan"
+        android:textAlignment="center"
+        android:textColor="#0000ff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_daftar"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="?android:attr/colorPrimary"
+        android:text="DAFTAR"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Colored" />
+
+    <TextView
+        android:id="@+id/tv_sudah_daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sudah Punya ID? Masuk Di Sini!"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#0000ff" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kode Aktivasi akan di SMS ke nomor handphone anda" />
+</LinearLayout>
